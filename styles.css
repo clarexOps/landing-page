@@ -129,3 +129,10 @@ img {
     border-radius: 5px;
     }
 }
+
+/* ---------- footer ---------- */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
