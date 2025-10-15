@@ -31,6 +31,8 @@ a {
 .nav {
     display: flex;
     gap: 16px;
+    padding: 0;
+    margin: 0;
 
     li {
         font-size: 18px;
@@ -61,11 +63,35 @@ a {
     .cta {
         background-color: #2882F6;
         color: #F9FAF8;
+        border: none;
     }
 
 }
 
 img {
     flex: 1;
+}
+
+/* info section */
+.info-section {
+    text-align: center;
+}
+.info-section h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    /* text-align: center; */
+}   
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
     
+    .card {
+        width: 200px;
+        /* display: flex;
+        flex-direction: column; */
+    }
 }
