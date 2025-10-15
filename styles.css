@@ -64,6 +64,7 @@ a {
         background-color: #2882F6;
         color: #F9FAF8;
         border: none;
+        border-radius: 5px;
     }
 
 }
@@ -105,5 +106,26 @@ img {
         font-size: 36px;
         color: #1F2937;
         font-weight: 300;
+    }
+}
+
+
+/* ---------- call-to-action ---------- */
+.call-to-action {
+    background-color: #2882F6;
+    display: flex;
+}
+
+.cta-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    .cta {
+    background-color: #2882F6;
+    color: #F9FAF8;
+    border: 1px solid white;
+    border-radius: 5px;
     }
 }
