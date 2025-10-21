@@ -6,25 +6,85 @@
 
 body {
     font-family: sans-serif;
+    line-height: 1.6;
+    /* font-size: 1.25rem; */
 }
 
 /* ---------- header/hero ---------*/
+.dark-bg {
+    background-color: #1f2937;
+}
+
+.wrapper {
+    max-inline-size: 1100px;
+    margin-inline: auto;
+}
+
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+    p {
+        font-size: 24px;
+        color: #f9faf8;
+        padding-left: 15px;
+    }
+}
+
+section {
+    margin-block: 50px;
 }
 
 .pri-nav ul {
     display: flex;
-    gap: 16px;
+    gap: 20px;
     list-style-type: none;
+    color: #e5e7eb;
+    padding: 18px;
 }
 
 .two-column-layout {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 15px;
 }
 
-.dark-bg {
-    background-color: #1f2937;
+.hero {
+    padding: 16px;
 }
+
+.hero .main-text {
+    font-size: 3rem;
+    color: #f9faf8;
+    line-height: 1.2;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero button {
+    font-size: 18px;
+}
+
+.hero img {
+    inline-size: 600px;
+    max-inline-size: 100%;
+    max-block-size: 90%;
+}
+
+.left-col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    button {
+        margin-block-start: 50px;
+        inline-size: 20%;
+        border-radius: 5px;
+        padding: 8px;
+    }
+}
+
