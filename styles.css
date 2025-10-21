@@ -51,7 +51,7 @@ section {
 }
 
 .hero {
-    padding: 16px;
+    padding-block-end: 30px;
 }
 
 .hero .main-text {
