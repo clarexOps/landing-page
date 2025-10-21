@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,9 +7,9 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "Roboto";
     line-height: 1.6;
-    /* font-size: 1.25rem; */
+    font-size: 1.25rem;
 }
 
 /* ---------- header/hero ---------*/
@@ -44,7 +46,8 @@ section {
     gap: 20px;
     list-style-type: none;
     color: #e5e7eb;
-    /* padding: 18px; */
+    font-size: 20px;
+    padding: 8px;
 
     li{
         padding: 0;
@@ -56,6 +59,7 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
+    margin-block-end: 20px;
 }
 
 .hero {
@@ -99,7 +103,7 @@ section {
 .cards {
     display: flex;
     justify-content: center;
-    gap: 52px;
+    gap: 10px;
 }
 
 .card {
@@ -115,3 +119,25 @@ section {
     border: 1px solid #3882f6;
     border-radius: 8px;
 }
+
+/* ---------- quote section ---------- */
+.gray-bg {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    padding: 50px;
+    line-height: 1.2;
+    font-style: italic;
+}
+
+.author-text {
+    text-align: end;
+    font-size: 20px;
+    font-weight: 700;
+    padding-block-end: 20px;
+}
+
