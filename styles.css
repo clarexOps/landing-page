@@ -12,11 +12,12 @@ body {
     font-size: 1.25rem;
 }
 
+
 /* ---------- header/hero ---------*/
 .dark-bg {
     background-color: #1f2937;
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 
 .wrapper {
@@ -78,9 +79,6 @@ section {
     color: #e5e7eb;
 }
 
-.hero button {
-    font-size: 18px;
-}
 
 .img {
     background-color: gray;
@@ -92,6 +90,7 @@ section {
 /* ---------- info ---------- */
 .info-section {
     text-align: center;
+    line-height: 1.4;
 }
 
 .title {
@@ -120,6 +119,7 @@ section {
     border-radius: 8px;
 }
 
+
 /* ---------- quote section ---------- */
 .gray-bg {
     background-color: #e5e7eb;
@@ -140,4 +140,33 @@ section {
     font-weight: 700;
     padding-block-end: 20px;
 }
+
+
+/* ---------- cta ---------- */
+.call-to-action {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10px;
+    padding: 25px;
+}
+.cta-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    button {
+        border: 1px solid white;
+    }
+}
+
+button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-size: 18px;
+    inline-size: 100px;
+}
+
 
