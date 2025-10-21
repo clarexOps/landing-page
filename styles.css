@@ -59,7 +59,7 @@ section {
 .two-column-layout {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 15px;
+    gap: 10px;
     margin-block-end: 20px;
 }
 
@@ -79,11 +79,18 @@ section {
     color: #e5e7eb;
 }
 
+.left-col button {
+    margin-block-start: 10px;
+}
+
 
 .img {
     background-color: gray;
     border: 1px solid ;
     max-inline-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -170,3 +177,10 @@ button {
 }
 
 
+/* ---------- footer ---------- */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+}
